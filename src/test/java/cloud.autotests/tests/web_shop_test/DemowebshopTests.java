@@ -171,8 +171,8 @@ public class DemowebshopTests extends TestBase {
     }
 
     @Test
-    @DisplayName("проверка наличия товаров в корзине")
-    @Description("check for selected items")
+    @DisplayName("selected items check")
+    @Description("Проверка наличия выбранных товаров в корзине")
     void successfulShoppingCartCheck() {
         step("Заходим в аккаунт на сайте", () -> {
             open("http://demowebshop.tricentis.com/");
